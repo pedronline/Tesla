@@ -1,5 +1,19 @@
 #hero {
   background-image: url('../../assets/images/Model-S/hero-mobile.jpg');
+  color: rgb(255, 255, 255);
+}
+
+#hero-bottom {
+  color: rgb(0, 0, 0);
+}
+
+.arrow-button {
+  color: rgb(0, 0, 0);
+}
+
+.reserve-button {
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 @media (min-width: 768px) {
@@ -11,3 +25,4 @@
 #aero {
   background-image: url('../../assets/images/Model-S/extra.jpg');
 }
+

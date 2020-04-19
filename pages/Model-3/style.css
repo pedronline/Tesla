@@ -1,5 +1,6 @@
 #hero {
   background-image: url('../../assets/images/Model-3/hero-mobile.jpg');
+  color:rgb(231, 231, 231);
 }
 
 @media (min-width: 768px) {
@@ -10,4 +11,12 @@
 
 #aero {
   background-image: url('../../assets/images/Model-3/extra.jpg');
+  
+}
+
+#aero .container{
+  color:rgb(255, 255, 255);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: 600;
 }

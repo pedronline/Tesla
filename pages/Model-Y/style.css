@@ -2,6 +2,10 @@
   background-image: url('../../assets/images/Model-Y/hero-mobile.jpg');
 }
 
+#hero-top{
+  color: rgb(217, 220, 223);
+}
+
 @media (min-width: 768px) {
   #hero {
     background-image: url('../../assets/images/Model-Y/hero.jpg');

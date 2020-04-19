@@ -1,13 +1,22 @@
 #hero {
-  background-image: url('../../assets/images/Cybertruck/hero-mobile.jpg');
+  background-image: url('../../assets/images/Energy/hero-mobile.jpg');
+}
+
+#hero-top {
+  color: rgb(217, 220, 223);
 }
 
 @media (min-width: 768px) {
   #hero {
-    background-image: url('../../assets/images/Cybertruck/hero.jpg');
+    background-image: url('../../assets/images/Energy/hero.jpg');
   }
 }
 
 #aero {
-  background-image: url('../../assets/images/Cybertruck/extra.jpg');
+  background-image: url('../../assets/images/Energy/extra.jpg');
+}
+
+#aero .container {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
 }
