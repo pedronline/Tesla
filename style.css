@@ -1,0 +1,13 @@
+#hero {
+  background-image: url('assets/images/Home/hero-mobile.jpg');
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-image: url('assets/images/Home/hero.jpg');
+  }
+}
+
+#aero {
+  background-image: url('assets/images/Home/extra.jpg');
+}

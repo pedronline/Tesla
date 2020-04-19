@@ -1,0 +1,13 @@
+#hero {
+  background-image: url('../../assets/images/Model-Y/hero-mobile.jpg');
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-image: url('../../assets/images/Model-Y/hero.jpg');
+  }
+}
+
+#aero {
+  background-image: url('../../assets/images/Model-Y/extra.jpg');
+}
