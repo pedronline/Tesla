@@ -1,3 +1,6 @@
+.navbar-light .navbar-brand {
+  background-image: url('assets/icons/logo.svg');
+}
 #hero {
   background-image: url('assets/images/Home/hero-mobile.jpg');
 }
