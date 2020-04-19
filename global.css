@@ -1,29 +1,129 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-
-body {
-  background: rgb(0, 0, 0);
-  /* -webkit-font-smoothing: antialiased; */
-}
-
-#hero {
-  height: 100vh;
-}
-
-/* * {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
 
 html,
 body,
 #root {
-  height: 100%;
-} */
+  background: rgb(0, 0, 0);
+  height: 100vh;
+}
 
-/* body,
+body,
 input,
 button {
-  font-family: Roboto, sans-serif;
-} */
+  font-family: Montserrat, sans-serif;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+.navbar-light .navbar-brand {
+  background-repeat: no-repeat;
+  width: 150px;
+  background-position: center;
+  background-size: 80%;
+  height: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#navcol-1 {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+#title {
+  font-size: 32px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+
+#subtitle {
+  font-size: 40px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+#hero-bottom {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.p-top {
+  font-size: 26px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.p-bot {
+  font-size: 13px;
+  margin: 0px;
+}
+
+.reserve-button {
+  border: 3px solid #fff;
+  border-radius: 36px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.arrow-button {
+  color: #fff;
+  font-size: 32px;
+}
+
+#hero-bottom .container {
+  max-width: 700px;
+  text-align: center;
+}
+
+.with-borders {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+#video-and-stats {
+  width: 100%;
+  text-align: center;
+}
+
+#video-and-stats iframe {
+  height: 500px;
+  max-width: 900px;
+  width: 90%;
+}
+
+#aero {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#aero .container {
+  margin-bottom: 100px;
+  max-width: 900px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat, sans-serif;
+}
+
+#footer {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat, sans-serif;
+}
+
+#footer .container {
+  max-width: 900px;
+}

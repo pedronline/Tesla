@@ -1,0 +1,17 @@
+#hero {
+  background-image: url('../../assets/images/Roadster/hero-mobile.jpg');
+}
+
+.navbar-light .navbar-brand {
+  background-image: url('../../assets/icons/logo.svg');
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-image: url('../../assets/images/Roadster/hero.jpg');
+  }
+}
+
+#aero {
+  background-image: url('../../assets/images/Roadster/back.jpg');
+}
