@@ -23,7 +23,7 @@ button {
 }
 
 .navbar-light .navbar-brand {
-  background-image: url('../../assets/icons/logo.svg');
+  background-image: url('assets/icons/logo.svg');
   background-repeat: no-repeat;
   width: 150px;
   background-position: center;

@@ -1,13 +1,7 @@
 #hero {
-  background-image: url('../../assets/images/Gallery/hero-mobile.jpg');
+  background-color: aliceblue;
 }
 
-@media (min-width: 768px) {
-  #hero {
-    background-image: url('../../assets/images/Gallery/hero.jpg');
-  }
-}
-
-#aero {
-  background-image: url('../../assets/images/Gallery/extra.jpg');
+.row {
+  margin: 15px;
 }
