@@ -1,8 +1,19 @@
+html,
+body {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #hero {
-  background-color: aliceblue;
   height: auto;
 }
 
 .row {
   margin: 15px;
+}
+
+#footer {
+  color: black;
 }

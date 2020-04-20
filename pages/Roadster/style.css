@@ -1,5 +1,6 @@
 #hero {
   background-image: url('../../assets/images/Roadster/hero-mobile.jpg');
+  background-attachment: fixed;
 }
 
 @media (min-width: 768px) {

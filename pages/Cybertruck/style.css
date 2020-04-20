@@ -1,9 +1,12 @@
 #hero {
   background-image: url('../../assets/images/Cybertruck/hero-mobile.jpg');
+  background-attachment: fixed;
 }
 
-#hero .brigth{
-  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFF 0px 0px 20px, #FFF 0px 0px 30px, #FFF 0px 0px 40px, #FFF 0px 0px 50px, #FFF 0px 0px 75px;
+#hero .brigth {
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #fff 0px 0px 20px, #fff 0px 0px 30px, #fff 0px 0px 40px, #fff 0px 0px 50px,
+    #fff 0px 0px 75px;
 }
 
 @media (min-width: 768px) {
