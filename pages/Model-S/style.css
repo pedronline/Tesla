@@ -1,6 +1,8 @@
 #hero {
   background-image: url('../../assets/images/Model-S/hero-mobile.jpg');
   color: rgb(255, 255, 255);
+  background-attachment: fixed;
+
 }
 
 #hero-bottom {
